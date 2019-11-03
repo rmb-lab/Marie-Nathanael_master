@@ -1,3 +1,6 @@
+
+http://www.unmariageausenegal.com/
+
 CREDITS:
 
 Template:
@@ -5,6 +8,12 @@ GetTemplates.co
 Website: http://gettemplates.co/
 Twitter: http://twitter.com/gettemplatesco
 Facebook: http://facebook.com/gettemplatesco
+
+Free HTML5 Template
+Website:    http://freehtml5.co/
+Email:      info@freehtml5.co
+Twitter:    http://twitter.com/fh5co
+Facebook:     https://www.facebook.com/fh5co
 
 Bootstrap
 http://getbootstrap.com/
@@ -50,7 +59,4 @@ http://dimsemenov.com/plugins/magnific-popup/
 
 SimplyCountDown JS
 http://vincentloy.github.io/simplyCountdown.js/
-
-Demo Images:
-http://unsplash.com
 
