@@ -1,6 +1,3 @@
-
-http://www.unmariageausenegal.com/
-
 CREDITS:
 
 Template:

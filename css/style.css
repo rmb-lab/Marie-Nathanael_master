@@ -239,15 +239,6 @@ h1, h2, h3, h4, h5, h6, figure {
   position: relative;
   width: 100%;
 }
-.fh5co-cover .overlay {
-  z-index: 0;
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
 .fh5co-cover > .fh5co-container {
   position: relative;
   z-index: 10;
@@ -307,16 +298,6 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-details.fh5co-heading h2,
 #fh5co-activity.fh5co-heading h2 {
   color: black;
-}
-#fh5co-counter .overlay,
-#fh5co-details .overlay,
-#fh5co-activity .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
 }
 @media screen and (max-width: 768px) {
   #fh5co-counter,
@@ -706,14 +687,6 @@ form label {
 */
 #fh5co-rsvp {
   position: relative;
-}
-#fh5co-rsvp .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.4);
 }
 #fh5co-rsvp .fh5co-heading h2 {
   color: #f7be16;
