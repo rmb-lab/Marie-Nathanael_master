@@ -375,15 +375,9 @@ h1, h2, h3, h4, h5, h6, figure {
   text-transform: uppercase;
   letter-spacing: 2px;
 }
-/*#map {
-  width: 100%;
-  height: 00px;
+#map {
   position: relative;
 }
-@media screen and (max-width: 768px) {
-  #map {
-    height: 200px;
-  }*/
 
 .fh5co-social-icons {
   margin: 0;
