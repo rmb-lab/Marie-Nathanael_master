@@ -1143,6 +1143,10 @@ form label {
   border-color: #293462;
 }
 
+.hidden-form-group {
+  display: none;
+}
+
 .row-pb-md {
   padding-bottom: 4em !important;
 }

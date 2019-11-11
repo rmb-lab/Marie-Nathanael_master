@@ -326,7 +326,6 @@
             <p>Nous apprécierons une réponse avant le [insert date]</p>
   				</div>
   			</div>
-
   			<div class="row animate-box">
   				<div class="col-md-10 col-md-offset-1">
   					<form class="form-inline">
@@ -369,21 +368,21 @@
         <div class="row">
           <div class="col-md-12 animate-box">
             <h3>CONTACT</h3>
-            <form action="mailto:rmbt.lab@gmail.com">
+            <form id="contactform" action="//formspree.io/unmariageausenegal@gmail.com" method="POST">
               <div class="row form-group">
                 <div class="col-md-6">
                   <label for="lname">Nom</label>
-                  <input type="text" id="lname" class="form-control" placeholder="Entrez votre nom">
+                  <input type="text" name="lname" id="lname" class="form-control" placeholder="Entrez votre nom">
                 </div>
                 <div class="col-md-6">
                   <label for="fname">Prénom</label>
-                  <input type="text" id="fname" class="form-control" placeholder="Entrez votre prénom">
+                  <input type="text" name="fname" id="fname" class="form-control" placeholder="Entrez votre prénom">
                 </div>
               </div>
               <div class="row form-group">
                 <div class="col-md-12">
                   <label for="email">Email</label>
-                  <input type="text" id="email" class="form-control" placeholder="Entrez votre email">
+                  <input type="text" name="_replyto" id="email" class="form-control" placeholder="Entrez votre email">
                 </div>
               </div>
               <div class="row form-group">
@@ -400,6 +399,11 @@
               </div>
               <div class="form-group">
                 <input type="submit" value="Envoyer" class="btn btn-primary">
+              </div>
+              <input type="hidden" name="_next" value="www.unmariageausenegal.com"/>
+              <input type="hidden" name="_subject" value="Question - Mariage"/>
+              <div class="hidden-form-group">
+                <input type="text" name="_gotcha" style="display:none" />
               </div>
             </form>
       </div>
