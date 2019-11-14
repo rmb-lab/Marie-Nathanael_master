@@ -356,7 +356,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-details .event-wrap .event-col {
   width: 50%;
   float: left;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #fh5co-counter {
@@ -623,7 +623,7 @@ form label {
   /* words */
 }
 
-#fh5co-logistic,
+#fh5co-accomodation,
 #fh5co-rsvp,
 #fh5co-footer,
 #fh5co-details,
@@ -634,7 +634,7 @@ form label {
   clear: both;
 }
 @media screen and (max-width: 768px) {
-  #fh5co-logistic,
+  #fh5co-accomodation,
   #fh5co-rsvp,
   #fh5co-footer,
   #fh5co-details,
