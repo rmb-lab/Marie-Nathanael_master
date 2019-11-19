@@ -214,7 +214,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #e31b23 !important;
+  color: #dc4224 !important;
 }
 
 /*<<< BACKGROUND >>>*/
@@ -375,7 +375,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-index .fh5co-heading h1 {
   margin-top: 300px;
   font-size: 65px;
-  color: #2F348E;
+  color: #113862;
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -394,11 +394,11 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-index .fh5co-heading h2 {
   font-size: 16px;
-  color: #4d4e51;
+  color: #dc4224;
   display: block;
   text-transform: uppercase;
   font-weight:700;
-  margin-bottom: 5px
+  margin-bottom: 2px
 }
 @media screen and (max-width: 768px) {
   #fh5co-index, {
@@ -512,7 +512,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-details .event-wrap h3 {
   font-size: 16px;
-  color: #2F348E;
+  color: #113862;
   border-bottom: 1px solid rgba(47, 52, 142, 1.5);
   display: block;
   padding-bottom: 20px;
@@ -582,7 +582,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-accomodation h3 {
   font-size: 20px;
-  color: #2F348E;
+  color: #113862;
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -593,10 +593,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-accomodation h4 {
   font-size: 15px;
-  color: #4d4e51;
+  color: #66304a;
   text-decoration: underline;
   text-transform: bold;
-  letter-spacing: 2px;
   margin-top: 20px;
   text-align: left;
   font-weight:700;
@@ -626,7 +625,7 @@ h1, h2, h3, h4, h5, h6, figure {
 /*INFOS*/
 
 #fh5co-infos .fh5co-heading h2 {
-  color: #fdef40;
+  color: #dc4224;
 
 }
 
@@ -639,7 +638,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-infos h3 {
   font-size: 20px;
-  color: #2F348E;
+  color: #113862;
   display: block;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -650,10 +649,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-infos h4 {
   font-size: 15px;
-  color: #4d4e51;
+  color: #66304a;
   text-decoration: underline;
   text-transform: bold;
-  letter-spacing: 2px;
   margin-top: 20px;
   text-align: left;
   font-weight:700;
@@ -707,7 +705,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-rsvp .fh5co-heading h2 {
-  color: #fdef40;
+  color: #dc4224;
   margin-bottom: 40px;
 }
 
@@ -723,13 +721,12 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-rsvp p {
-  font-size: 15px;
-  color: #e31b23;
+  font-size: 20px;
+  color: #66304a;
   margin-block-end: 0;
   text-align: center;
   font-weight:700;
   font-style: bold;
-  text-transform: uppercase;
 }
 
 #fh5co-rsvp label {
@@ -861,7 +858,7 @@ h1, h2, h3, h4, h5, h6, figure {
   line-height: 1;
   font-weight: bold;
   font-family: arbora, sans-serif;
-  color: #2F348E;
+  color: #113862;
 }
 
 #fh5co-header .display-tc h2,
@@ -947,7 +944,7 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-bottom: 40px;
   line-height: 1.5;
   font-weight: bold;
-  color: #fdef40;
+  color: #dc4224;
   font-family: arbora, sans-serif;
 }
 @media screen and (max-width: 768px) {
