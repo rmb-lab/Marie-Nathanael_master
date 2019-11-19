@@ -218,7 +218,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*<<< BACKGROUND >>>*/
-/*.background {
+.background {
     background: url("images/background.jpg") no-repeat center center fixed;
     width: 100%;
     height: 100%;
@@ -230,7 +230,7 @@ h1, h2, h3, h4, h5, h6, figure {
     -o-background-size: cover;
     background-size: cover;
     top: 0;
-  }*/
+  }
 
 #fh5co-details,
 #fh5co-accomodation,
@@ -327,7 +327,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-infos {
-  height: 3500px;
+  height: 3900px;
   float: left;
   background-image: url("../images/background.jpg");
 }
@@ -390,6 +390,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   text-transform: uppercase;
   font-weight:700;
+  margin-bottom: 5px
 }
 @media screen and (max-width: 768px) {
   #fh5co-index, {
@@ -740,6 +741,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: rgba(166, 214, 242, 0.1);
   padding: 10px;
   width: 100%;
+  margin-bottom: 15px;
    float: left;
 /*  border: none !important;*/
 /*  color: black;*/
