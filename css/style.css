@@ -13,7 +13,7 @@
 
 
 body {
-  font-family: arbora, sans-serif;
+  font-family:'Avenir LT W01 95 Black';
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -67,7 +67,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: black;
-  font-family: arbora, sans-serif;
+  font-family:'Avenir LT W01 95 Black';
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -124,6 +124,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 14px;
   padding: 30px 10px;
   text-transform: uppercase;
+  font-weight:700;
   color: #;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
@@ -349,7 +350,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: block;
   color: #4d4e51;
   font-weight:600;
-  margin-top: 17px;
+  margin-top: 20px;
 }
 
 #fh5co-footer2 i {
@@ -378,15 +379,26 @@ img {
     opacity: 0.8;
 }
 
+@font-face {
+  font-family: 'alpaca-solidify';
+  src: url('fonts/alpaca-solidify.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
+@font-face {
+  font-family: 'alpaca-scarlett';
+  src: url('alpaca-scarlett-demo.ttf') format('truetype'), /* Safari, Android, iOS */
+}
+
 #fh5co-index .fh5co-heading h1 {
   margin-top: 50px;
-  font-size: 65px;
+  font-size: 80px;
   color: #113862;
   display: block;
-  text-transform: uppercase;
   letter-spacing: 2px;
   font-weight:700;
+  font-family: alpaca-solidify;
 }
+
 @media screen and (max-width: 768px) {
   #fh5co-index, {
     height: inherit;
@@ -399,10 +411,9 @@ img {
 }
 
 #fh5co-index .fh5co-heading h2 {
-  font-size: 16px;
+  font-size: 20px;
   color: #dc4224;
   display: block;
-  text-transform: uppercase;
   font-weight:700;
   margin-bottom: 2px
 }
@@ -464,14 +475,15 @@ img {
 }
 
 .simply-countdown > .simply-section .simply-amount {
-  font-size: 30px;
+  font-size: 40px;
   /* amounts */
 }
 
 .simply-countdown > .simply-section .simply-word {
   color: #4d4e51;
   text-transform: capitalize;
-  font-size: 12px;
+  font-size: 15px;
+  color: #fdef40;
   /* words */
 }
 
@@ -517,6 +529,7 @@ img {
 
 #fh5co-details.fh5co-heading h2 {
   color: black;
+  font-size: 'alpaca-solidify';
 }
 @media screen and (max-width: 768px) {
   #fh5co-details, {
@@ -548,47 +561,44 @@ img {
 }
 
 #fh5co-details .event-wrap h3 {
-  font-size: 16px;
+  font-size: 25px;
   color: #113862;
   border-bottom: 1px solid rgba(47, 52, 142, 1.5);
   display: block;
   padding-bottom: 20px;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   font-weight:700;
+  font-family: alpaca-scarlett;
 }
 
 #fh5co-details .event-wrap h4 {
-  font-size: 17px;
+  font-size: 25px;
   color: #00863d;
   text-transform: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight:500;
+  font-weight:700;
+  font-family: alpaca-scarlett;
 }
 
 #fh5co-details .event-wrap span {
-  font-size: 13px;
+  font-size: 20px;
   text-transform: bold;
   color: #4d4e51;
   display: block;
   margin-bottom: 12px;
-  font-weight:500;
+  font-weight:700;
 }
 
 #fh5co-details .event-wrap p {
   font-size: 15px;
   color: #4d4e51;
-  text-transform: bold;
-  letter-spacing: 2px;
-  text-align: justify;
+  text-align: center;
   text-justify: inter-word;
+  font-weight:550;
 }
 
 #fh5co-details .event-wrap a {
-  font-size: 13px;
+  font-size: 15px;
   text-transform: bold;
-  color: #4d4e51;
+  color: #66304a;
   display: block;
   margin-bottom: 12px;
 }
@@ -608,6 +618,7 @@ img {
 
 #fh5co-accomodation.fh5co-heading h2 {
   color: black;
+  font-family: alpaca-scarlett;
 }
 
 @media screen and (max-width: 1000px) {
@@ -618,18 +629,17 @@ img {
 }
 
 #fh5co-accomodation h3 {
-  font-size: 20px;
+  font-size: 25px;
   color: #113862;
   display: block;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   font-weight:700;
   margin-bottom: 20px;
   margin-top: 20px;
+  font-family: alpaca-scarlett;
 }
 
 #fh5co-accomodation h4 {
-  font-size: 15px;
+  font-size: 20px;
   color: #66304a;
   text-decoration: underline;
   text-transform: bold;
@@ -663,7 +673,7 @@ img {
 
 #fh5co-infos .fh5co-heading h2 {
   color: #dc4224;
-
+  font-family: alpaca-scarlett;
 }
 
 @media screen and (max-width: 768px) {
@@ -674,18 +684,16 @@ img {
 }
 
 #fh5co-infos h3 {
-  font-size: 20px;
+  font-size: 25px;
   color: #113862;
   display: block;
-  text-transform: uppercase;
-  letter-spacing: 2px;
   font-weight:700;
   margin-bottom: 20px;
   margin-top: 30px;
 }
 
 #fh5co-infos h4 {
-  font-size: 15px;
+  font-size: 20px;
   color: #66304a;
   text-decoration: underline;
   text-transform: bold;
@@ -698,9 +706,9 @@ img {
   font-size: 15px;
   color: #4d4e51;
   font-style: italic;
-  letter-spacing: 2px;
   margin-top: 20px;
   text-align: left;
+  font-weight:700;
 }
 
 #fh5co-infos p {
@@ -721,12 +729,12 @@ img {
 
 #fh5co-infos .animate-box_2 p {
   font-style: bold;
-  text-transform: uppercase;
   margin-top: 20px;
   margin-bottom: 20px;
   color: #00863d;
   text-align: center;
   font-weight:700;
+  font-family: alpaca-scarlett;
 }
 
 #fh5co-infos .js .animate-box {
@@ -744,6 +752,7 @@ img {
 #fh5co-rsvp .fh5co-heading h2 {
   color: #dc4224;
   margin-bottom: 40px;
+  font-family: alpaca-scarlett;
 }
 
 @media screen and (max-width: 768px) {
@@ -982,7 +991,18 @@ img {
   line-height: 1.5;
   font-weight: bold;
   color: #dc4224;
-  font-family: arbora, sans-serif;
+/*  font-family:'Avenir LT W01 35 Light';*/
+/*  font-family:'AvenirLTW01-35LightObli';*/
+/*  font-family:'Avenir LT W01 45 Book';*/
+ /* font-family:'AvenirLTW01-45BookObliq';*/
+/*  font-family:'Avenir LT W01 55 Roman';*/
+/*  font-family:'AvenirLTW01-55Oblique';*/
+/*  font-family:'Avenir LT W01 65 Medium';*/
+/*  font-family:'AvenirLTW01-65MediumObl';*/
+/*  font-family:'Avenir LT W01 85 Heavy';*/
+/*  font-family:'AvenirLTW01-85HeavyObli';*/
+  font-family:'Avenir LT W01 95 Black';
+/*  font-family:'AvenirLTW01-95BlackObli';*/
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
