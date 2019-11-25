@@ -19,6 +19,7 @@ body {
   line-height: 1.7;
   color: black;
   background: white;
+  height:100%;
 }
 
 #page {
@@ -218,37 +219,21 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*<<< BACKGROUND >>>*/
-/*.background {
-    background: no-repeat center center fixed;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    z-index: -1;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    top: 0;
-    opacity: 0.5;
-  }
-*/
 
 .background1 {
   width: 100%;
-/*  height: 100%;*/
+  height:100%;
   position: absolute;
   z-index: -1;
-  opacity: 0.5;
+  opacity: 0.7;
   background: center center fixed;
-  background-attachment: fixed;
-  background-size: cover;
-
+  height: auto;
 }
 
 @media screen and (max-width: 700px) {
   .background1 {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 }
 
@@ -322,42 +307,23 @@ h1, h2, h3, h4, h5, h6, figure {
 /*SECTIONS HEIGHT*/
 
 #fh5co-index {
-  height: 700px;
-  float: left;
-  background-size: cover;
-  background-repeat: repeat;
+  height: 1500px;
 }
 
 #fh5co-details {
-  height: 1000px;
-  float: left;
-  background: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 900px;
 }
 
 #fh5co-accomodation {
-  height: 1000px;
-  float: left;
-  background: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 900px;
 }
 
 #fh5co-rsvp {
   height: 500px;
-  float: left;
-  background: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 #fh5co-infos {
-  height: 3900px;
-  float: left;
-  background: url("../images/background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  height: 3800px;
 }
 
 #fh5co-footer2 {
