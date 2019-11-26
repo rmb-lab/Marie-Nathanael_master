@@ -129,6 +129,12 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
+/*  font-family: alpaca-solidify;*/
+    font-family: "Work Sans", Arial, sans-serif;
+/*  font-family: 'Roboto', sans-serif;*/
+/*  font-family: 'Oxygen', sans-serif;*/
+/*  font-family: 'Cabin', sans-serif;*/
+/*  font-family: 'Varela Round', sans-serif;*/
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
   color: white;
@@ -222,13 +228,14 @@ h1, h2, h3, h4, h5, h6, figure {
 /*<<< BACKGROUND >>>*/
 
 .background1 {
-  width: 100%;
-  height:100%;
   position: absolute;
   z-index: -1;
   opacity: 0.7;
-  background: center center fixed;
-  height: auto;
+  background-size: cover;
+  -webkit-background-size: cover;
+/*  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;*/
 }
 
 @media screen and (max-width: 700px) {
@@ -236,6 +243,24 @@ h1, h2, h3, h4, h5, h6, figure {
     width: 100%;
     height: auto;
   }
+}
+
+#fh5co-details,
+#fh5co-accomodation,
+#fh5co-infos,
+#fh5co-rsvp,
+.fh5co-background1 {
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.fh5co-background1 {
+  background-position: center center;
+  width: 100%;
+  float: left;
+  position: relative;
 }
 
 #fh5co-details,
@@ -308,15 +333,15 @@ h1, h2, h3, h4, h5, h6, figure {
 /*SECTIONS HEIGHT*/
 
 #fh5co-index {
-  height: 1500px;
+  height: 1300px;
 }
 
 #fh5co-details {
-  height: 900px;
+  height: 800px;
 }
 
 #fh5co-accomodation {
-  height: 900px;
+  height: 800px;
 }
 
 #fh5co-rsvp {
@@ -376,8 +401,29 @@ h1, h2, h3, h4, h5, h6, figure {
 img {
     width: 100%;
     height: auto;
-    opacity: 0.8;
+    opacity: 0.9;
 }
+
+
+/*LOGO*/
+
+#fh5co-logo img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#fh5co-logo {
+  position: absolute;
+  left: 50px;
+  top: 0;
+  display: block;
+  height: 200px;
+  width: 200px;
+  text-indent: -999em;
+}
+
+/*LOGO*/
 
 @font-face {
   font-family: 'alpaca-solidify';
@@ -414,8 +460,15 @@ img {
   font-size: 20px;
   color: #dc4224;
   display: block;
-  font-weight:700;
-  margin-bottom: 2px
+  font-weight:550;
+  margin-bottom: 2px;
+  font-family: "Work Sans", Arial, sans-serif;
+/*  font-family: 'Pacifico', cursive;*/
+/*  font-family: 'Roboto', sans-serif;*/
+/*  font-family: 'Oxygen', sans-serif;*/
+/*  font-family: 'Cabin', sans-serif;*/
+/*  font-family: 'Varela Round', sans-serif;*/
+/*  font-family: 'Indie Flower', cursive;*/
 }
 @media screen and (max-width: 768px) {
   #fh5co-index, {
@@ -470,7 +523,15 @@ img {
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: #fdef40;
+  color: #66304a;
+/*  font-family: 'Pacifico', cursive;*/
+/*  font-family: 'Roboto', sans-serif;*/
+/*  font-family: 'Oxygen', sans-serif;*/
+/*  font-family: 'Cabin', sans-serif;*/
+/*  font-family: 'Varela Round', sans-serif;*/
+/*  font-family: 'Indie Flower', cursive;*/
+  font-weight:550;
+  font-family: "Work Sans", Arial, sans-serif;
   /* amounts and words */
 }
 
@@ -481,9 +542,9 @@ img {
 
 .simply-countdown > .simply-section .simply-word {
   color: #4d4e51;
-  text-transform: capitalize;
+/*  text-transform: capitalize;*/
   font-size: 15px;
-  color: #fdef40;
+  color: #66304a;
   /* words */
 }
 
@@ -561,30 +622,42 @@ img {
 }
 
 #fh5co-details .event-wrap h3 {
-  font-size: 25px;
+  font-size: 20px;
   color: #113862;
   border-bottom: 1px solid rgba(47, 52, 142, 1.5);
   display: block;
   padding-bottom: 20px;
   font-weight:700;
-  font-family: alpaca-scarlett;
+  text-transform: uppercase;
+/*  font-family: alpaca-scarlett;*/
+  font-family: "Work Sans", Arial, sans-serif;
+/*    font-family: 'Pacifico', cursive;*/
+/*  font-family: 'Roboto', sans-serif;*/
+/*  font-family: 'Oxygen', sans-serif;*/
+/*  font-family: 'Cabin', sans-serif;*/
+/*  font-family: 'Varela Round', sans-serif;*/
+/*  font-family: 'Indie Flower', cursive;*/
 }
 
 #fh5co-details .event-wrap h4 {
-  font-size: 25px;
+  font-size: 20px;
   color: #00863d;
   text-transform: bold;
   font-weight:700;
-  font-family: alpaca-scarlett;
+  font-family: alpaca-solidify;
+/*  text-transform: uppercase;*/
 }
 
 #fh5co-details .event-wrap span {
-  font-size: 20px;
+  font-size: 15px;
   text-transform: bold;
   color: #4d4e51;
   display: block;
   margin-bottom: 12px;
   font-weight:700;
+  font-family: "Work Sans", Arial, sans-serif;
+/*  font-family: 'Varela Round', sans-serif;*/
+  text-transform: uppercase;
 }
 
 #fh5co-details .event-wrap p {
@@ -593,14 +666,16 @@ img {
   text-align: center;
   text-justify: inter-word;
   font-weight:550;
+  font-family: "Work Sans", Arial, sans-serif;
 }
 
 #fh5co-details .event-wrap a {
-  font-size: 15px;
+  font-size: 13px;
   text-transform: bold;
   color: #66304a;
   display: block;
-  margin-bottom: 12px;
+  margin-bottom: 10px;
+  font-family: "Work Sans", Arial, sans-serif;
 }
 
 #fh5co-details .event-wrap i {
@@ -649,19 +724,23 @@ img {
 }
 
 #fh5co-accomodation p {
-  font-size: 15px;
+  font-size: 17px;
   color: #4d4e51;
   text-justify: inter-word;
   margin-block-end: 0;
   text-align: justify;
+  font-weight:550;
+  font-family: "Work Sans", Arial, sans-serif;
 }
 
 #fh5co-accomodation a, li {
-  font-size: 15px;
+  font-size: 17px;
   color: #4d4e51;
   text-justify: inter-word;
   margin-block-end: 0;
   text-align: justify;
+  font-weight:550;
+  font-family: "Work Sans", Arial, sans-serif;
 }
 
 #fh5co-accomodation .js .animate-box {
@@ -703,7 +782,7 @@ img {
 }
 
 #fh5co-infos h5 {
-  font-size: 15px;
+  font-size: 17px;
   color: #4d4e51;
   font-style: italic;
   margin-top: 20px;
@@ -712,15 +791,17 @@ img {
 }
 
 #fh5co-infos p {
-  font-size: 15px;
+  font-size: 17px;
   color: #4d4e51;
   text-justify: inter-word;
   margin-block-end: 0;
   text-align: justify;
+  font-weight:550;
+  font-family: "Work Sans", Arial, sans-serif;
 }
 
 #fh5co-infos a, li {
-  font-size: 15px;
+  font-size: 17px;
   color: #4d4e51;
   text-justify: inter-word;
   margin-block-end: 0;
@@ -733,8 +814,8 @@ img {
   margin-bottom: 20px;
   color: #00863d;
   text-align: center;
-  font-weight:700;
-  font-family: alpaca-scarlett;
+  font-weight:550;
+  font-family: "Work Sans", Arial, sans-serif;
 }
 
 #fh5co-infos .js .animate-box {
@@ -776,7 +857,7 @@ img {
 }
 
 #fh5co-rsvp label {
-  font-size: 15px;
+  font-size: 20px;
   color: #00863d;
   font-weight:700;
   float: left;
@@ -791,7 +872,7 @@ img {
 #fh5co-rsvp .form-control {
   border: 2px solid rgba(47, 52, 142, 0.5);
   background: rgba(166, 214, 242, 0.1);
-  padding: 10px;
+  padding: 20px;
   width: 100%;
   margin-bottom: 15px;
    float: left;
@@ -834,6 +915,7 @@ img {
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
+  font-family: alpaca-solidify;
 }
 #fh5co-rsvp .form-inline .form-group {
   width: 100% !important;
@@ -1053,10 +1135,10 @@ img {
   line-height: 1.5;
   color: #4d4e51;
   margin-bottom: 0px;
-  font-style: italic;
+/*  font-style: italic;*/
   text-align: justify;
   text-justify: inter-word;
-  margin-bottom: 5px
+  margin-bottom: 5px;
 }
 
 
