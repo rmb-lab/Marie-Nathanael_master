@@ -249,6 +249,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-accomodation,
 #fh5co-infos,
 #fh5co-rsvp,
+#fh5co-footer2,
 .fh5co-background1 {
   background-size: cover;
   background-position: top center;
@@ -264,6 +265,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-details,
+#fh5co-footer2,
 #fh5co-accomodation,
 #fh5co-infos,
 #fh5co-rsvp,
@@ -331,7 +333,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*SECTIONS HEIGHT*/
-
+/*
 #fh5co-index {
   height: 1300px;
 }
@@ -350,10 +352,9 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-infos {
   height: 3800px;
-}
+}*/
 
 #fh5co-footer2 {
-  position: fixed;
   bottom: 0px;
 }
 
@@ -401,7 +402,7 @@ h1, h2, h3, h4, h5, h6, figure {
 img {
     width: 100%;
     height: auto;
-    opacity: 0.9;
+    opacity: 0.85;
 }
 
 
@@ -414,13 +415,16 @@ img {
 }
 
 #fh5co-logo {
-  position: absolute;
+   position: absolute;
   left: 50px;
   top: 0;
   display: block;
   height: 200px;
   width: 200px;
   text-indent: -999em;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
 }
 
 /*LOGO*/
@@ -547,37 +551,6 @@ img {
   color: #66304a;
   /* words */
 }
-
-/*ROW-FOOTER*/
-
-/*.row-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
-}
-
-@media screen and (max-width: 768px) {
-  #row-footer .copyright .pull-left,
-  #row-footer .copyright .pull-right {
-    float: none !important;
-    text-align: center;
-  }
-}
-
-#row-footer .copyright .block {
-  display: block;
-}
-
-#row-footer p {
-  display: block;
-  color: #4d4e51;
-  font-weight:600;
-  margin-top: 17px;
-}
-
-#row-footer i {
-  color: #4d4e51;
-}*/
 
 /*DETAILS*/
 
@@ -929,8 +902,17 @@ img {
 }
 
 
-/*
-****************/
+/*ROW FOOTER*/
+
+#row-footer {
+  margin-top: 100px;
+}
+
+
+#row-footer p{
+  margin-top: 100px;
+  text-align: center;
+}
 
 .date {
   display: block;
@@ -1044,6 +1026,7 @@ img {
 #fh5co-details,
 #fh5co-accomodation,
 #fh5co-infos,
+#fh5co-footer2,
 #fh5co-contact {
   padding: 7em 0;
   clear: both;
@@ -1054,6 +1037,7 @@ img {
   #fh5co-details
   #fh5co-accomodation,
   #fh5co-infos,
+  #fh5co-footer2,
   #fh5co-contact {
     padding: 3em 0;
   }
