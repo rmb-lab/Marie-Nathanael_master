@@ -406,7 +406,7 @@ img {
 
 #fh5co-logo {
   position: absolute;
-  left: 50px;
+  left: 125px;
   top: 0px;
   display: block;
   height: 250px;
@@ -437,7 +437,7 @@ display: none;
 
 #fh5co-index .fh5co-heading h1 {
   font-size: 80px;
-  color: #113862;
+  color: #1f1d9f;
   display: block;
   letter-spacing: 2px;
   font-weight:700;
@@ -457,7 +457,7 @@ display: none;
 
 #fh5co-index .fh5co-heading h2 {
   font-size: 20px;
-  color: #dc4224;
+  color: #f81126;
   display: block;
   font-weight:550;
   margin-bottom: 2px;
@@ -490,7 +490,7 @@ display: none;
   display: inline-block;
   width: 80px;
   height: 80px;
-  background: rgba(#293462, 0.8);
+/*  background: rgba(253, 236, 39, 0.8);*/
   margin: 0 4px;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -498,6 +498,7 @@ display: none;
   border-radius: 50%;
   position: relative;
   animation: pulse 1s ease infinite;
+  margin-top: 30px;
 }
 
 @keyframes pulse {
@@ -522,7 +523,7 @@ display: none;
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: #66304a;
+  color: #fdec27;
 /*  font-family: 'Pacifico', cursive;*/
 /*  font-family: 'Roboto', sans-serif;*/
 /*  font-family: 'Oxygen', sans-serif;*/
@@ -540,10 +541,10 @@ display: none;
 }
 
 .simply-countdown > .simply-section .simply-word {
-  color: #4d4e51;
 /*  text-transform: capitalize;*/
   font-size: 15px;
-  color: #66304a;
+  color: #fdec27;
+/*  margin-top: 10px;*/
   /* words */
 }
 
@@ -573,8 +574,8 @@ display: none;
   }
 }
 #fh5co-details .event-wrap {
-  border: 2px solid rgba(47, 52, 142, 0.5);
-  background: rgba(166, 214, 242, 0.1);
+  border: 2px solid rgba(218, 210, 224, 1);
+  background: rgba(218, 210, 224, .1);
   padding: 30px;
   width: 100%;
   float: left;
@@ -591,8 +592,8 @@ display: none;
 
 #fh5co-details .event-wrap h3 {
   font-size: 20px;
-  color: #113862;
-  border-bottom: 1px solid rgba(47, 52, 142, 1.5);
+  color: #1f1d9f;
+  border-bottom: 2px solid rgba(218, 210, 224, 1);
   display: block;
   padding-bottom: 20px;
   font-weight:700;
@@ -611,6 +612,7 @@ display: none;
   font-size: 20px;
   color: #00863d;
   text-transform: bold;
+  text-decoration: underline;
   font-weight:700;
   font-family: alpaca-solidify;
 /*  text-transform: uppercase;*/
@@ -619,7 +621,7 @@ display: none;
 #fh5co-details .event-wrap span {
   font-size: 15px;
   text-transform: bold;
-  color: #4d4e51;
+  color: #1eb2f5;
   display: block;
   margin-bottom: 12px;
   font-weight:700;
@@ -640,7 +642,7 @@ display: none;
 #fh5co-details .event-wrap a {
   font-size: 13px;
   text-transform: bold;
-  color: #66304a;
+  color: #1eb2f5;
   display: block;
   margin-bottom: 10px;
   font-family: "Work Sans", Arial, sans-serif;
@@ -808,7 +810,7 @@ display: none;
 }
 
 #fh5co-rsvp .fh5co-heading h2 {
-  color: #dc4224;
+  color: #1d769f;
   margin-bottom: 40px;
   font-family: alpaca-scarlett;
 }
@@ -1042,7 +1044,7 @@ display: none;
   margin-bottom: 40px;
   line-height: 1.5;
   font-weight: bold;
-  color: #dc4224;
+  color: #1d769f;
 /*  font-family:'Avenir LT W01 35 Light';*/
 /*  font-family:'AvenirLTW01-35LightObli';*/
 /*  font-family:'Avenir LT W01 45 Book';*/
