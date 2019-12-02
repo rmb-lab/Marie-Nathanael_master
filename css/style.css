@@ -95,6 +95,7 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   padding: 40px 0;
   z-index: 1001;
+  height: 110px;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav {
@@ -233,10 +234,11 @@ h1, h2, h3, h4, h5, h6, figure {
 /*  opacity: 0.7;*/
   background-size: cover;
   -webkit-background-size: cover;
-/*  background-color: rgba(131, 239, 254, .3);*/
-  background-color: rgba(132, 188, 251, .3);
-/*  background-color: rgba(225, 215, 224, .5);*/
-/*  background-color: rgba(131, 253, 254, .5);*/
+/*  background-color: rgba(131, 239, 254, 0.3);*/
+/*  background-color: rgba(132, 188, 251, 0.3);*/
+/*  background-color: rgba(225, 215, 224, .1);*/
+/*  background-color: rgba(131, 253, 254, .1);*/
+  background-image: url(../images/bg_1500x1500.jpg);
 }
 
 @media screen and (max-width: 700px) {
@@ -322,27 +324,11 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 /*SECTIONS HEIGHT*/
-/*
-#fh5co-index {
-  height: 1300px;
+
+/*#fh5co-index {
+  background-image: url(../images/bg_1500x500.jpg);
 }
-
-#fh5co-details {
-  height: 800px;
-}
-
-#fh5co-accomodation {
-  height: 800px;
-}
-
-#fh5co-rsvp {
-  height: 500px;
-}
-
-#fh5co-infos {
-  height: 3800px;
-}*/
-
+*/
 #fh5co-footer2 {
   height: 100%;
 }
@@ -406,8 +392,9 @@ img {
 #fh5co-logo {
   position: absolute;
   top: 0px;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
+  z-index: 1002;
 }
 
 @media (max-width: 50em) {
@@ -616,7 +603,7 @@ display: none;
 #fh5co-details .event-wrap span {
   font-size: 15px;
   text-transform: bold;
-  color: #1eb2f5;
+  color: #1d769f;
   display: block;
   margin-bottom: 12px;
   font-weight:700;
@@ -637,7 +624,7 @@ display: none;
 #fh5co-details .event-wrap a {
   font-size: 13px;
   text-transform: bold;
-  color: #1eb2f5;
+  color: #1d769f;
   display: block;
   margin-bottom: 10px;
   font-family: "Work Sans", Arial, sans-serif;
@@ -682,13 +669,13 @@ display: none;
 
 #fh5co-accomodation h4 {
   font-size: 20px;
-  color: #1eb2f5;
+  color: #1d769f;
 /*  text-decoration: underline;*/
   text-transform: bold;
   margin-top: 20px;
   text-align: left;
   font-weight:700;
-  border-bottom: 2px dotted rgba(30, 178, 245, 1);
+  border-bottom: 2px dotted rgba(29, 18, 159, 1);
 }
 
 #fh5co-accomodation p {
@@ -752,13 +739,13 @@ display: none;
 
 #fh5co-infos h4 {
   font-size: 20px;
-  color: #1eb2f5;
+  color: #1d769f;
 /*  text-decoration: underline;*/
   text-transform: bold;
   margin-top: 20px;
   text-align: left;
   font-weight:700;
-  border-bottom: 2px dotted rgba(30, 178, 245, 1);
+  border-bottom: 2px dotted rgba(29, 18, 159, 1);
 }
 
 #fh5co-infos h5 {
@@ -838,7 +825,7 @@ display: none;
 
 #fh5co-rsvp label {
   font-size: 20px;
-  color: #1eb2f5;
+  color: #69344e;
   font-weight:700;
   float: left;
 
