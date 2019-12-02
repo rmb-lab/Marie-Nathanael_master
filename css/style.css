@@ -416,7 +416,7 @@ display: none;
 }
 
 #fh5co-index .fh5co-heading h1 {
-  font-size: 85px;
+  font-size: 80px;
   color: #1f1d9f;
   display: block;
   letter-spacing: 2px;
@@ -428,6 +428,7 @@ display: none;
   #fh5co-index, {
     height: inherit;
     padding: 7em 0;
+    width: 100%;
   }
   #fh5co-index .display-t,
   #fh5co-index .display-tc {
@@ -825,7 +826,7 @@ display: none;
 
 #fh5co-rsvp label {
   font-size: 20px;
-  color: #69344e;
+  color: #1d769f;
   font-weight:700;
   float: left;
 
