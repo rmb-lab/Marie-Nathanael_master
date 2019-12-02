@@ -1387,7 +1387,7 @@ display: none;
   border: 2px solid #293462;
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background: white !important;
+  background: #1eb2f5 !important;
   border-color: #293462 !important;
 }
 .btn-primary.btn-outline {
