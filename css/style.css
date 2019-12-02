@@ -234,8 +234,8 @@ h1, h2, h3, h4, h5, h6, figure {
   background-size: cover;
   -webkit-background-size: cover;
 /*  background-color: rgba(131, 239, 254, .3);*/
-/*  background-color: rgba(132, 188, 251, .3);*/
-  background-color: rgba(225, 215, 224, .5);
+  background-color: rgba(132, 188, 251, .3);
+/*  background-color: rgba(225, 215, 224, .5);*/
 /*  background-color: rgba(131, 253, 254, .5);*/
 }
 
