@@ -13,7 +13,7 @@
 
 
 body {
-  font-family:'Avenir LT W01 95 Black';
+  font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -66,8 +66,8 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6, figure {
+  font-family: 'Poppins', sans-serif;
   color: black;
-  font-family:'Avenir LT W01 95 Black';
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-nav a {
-  color: #00863d;
+  color: #0e5b00;
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1, .fh5co-nav .menu-2 {
@@ -130,15 +130,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
-/*  font-family: alpaca-solidify;*/
-    font-family: "Work Sans", Arial, sans-serif;
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-family: 'Oxygen', sans-serif;*/
-/*  font-family: 'Cabin', sans-serif;*/
-/*  font-family: 'Varela Round', sans-serif;*/
 }
 .fh5co-nav ul li a:hover, .fh5co-nav ul li a:focus, .fh5co-nav ul li a:active {
-  color: white;
+  color: #fdeb26;
 }
 .fh5co-nav ul li.has-dropdown {
   position: relative;
@@ -223,7 +217,7 @@ h1, h2, h3, h4, h5, h6, figure {
   box-shadow: 0px 14px 20px -9px rgba(0, 0, 0, 0.75);
 }
 .fh5co-nav ul li.active > a {
-  color: #dc4224 !important;
+  color: #eb334c !important;
 }
 
 /*<<< BACKGROUND >>>*/
@@ -238,7 +232,7 @@ h1, h2, h3, h4, h5, h6, figure {
 /*  background-color: rgba(132, 188, 251, 0.3);*/
 /*  background-color: rgba(225, 215, 224, .1);*/
 /*  background-color: rgba(131, 253, 254, .1);*/
-  background-image: url(../images/bg_1500x1500.jpg);
+  background-image: url(../images/bg_4000x4000.jpg);
 }
 
 @media screen and (max-width: 700px) {
@@ -346,15 +340,30 @@ h1, h2, h3, h4, h5, h6, figure {
 
 #fh5co-footer2 p {
   display: block;
-  color: #1f1d9f;
+  color: #3385af;
+  font-weight:500;
+  margin: 0;
+  font-size: 15px;
+}
+
+#fh5co-footer2 a {
+  color: #3385af;
   font-weight:600;
-  margin-top: 20px;
+  font-size: 15px;
+}
+
+#fh5co-footer2 a:hover {
+  color: #fdeb26;
 }
 
 #fh5co-footer2 i {
-  color: #1f1d9f;
+  color: #3385af;
+  font-size: 25px;
 }
 
+#fh5co-footer2 i:hover {
+  color: #fdeb26;
+}
 #fh5co-footer2 .copyright .block {
   display: block;
 }
@@ -378,7 +387,8 @@ h1, h2, h3, h4, h5, h6, figure {
 img {
     width: 100%;
     height: auto;
-    opacity: 0.85;
+/*    opacity: 0.85;*/
+    border-radius: 50%;
 }
 
 /*LOGO*/
@@ -392,12 +402,12 @@ img {
 #fh5co-logo {
   position: absolute;
   top: 0px;
-  height: 200px;
-  width: 200px;
+  height: 250px;
+  width: 250px;
   z-index: 1002;
 }
 
-@media (max-width: 50em) {
+@media (max-width: 60em) {
 #fh5co-logo {
 display: none;
 }
@@ -416,12 +426,12 @@ display: none;
 }
 
 #fh5co-index .fh5co-heading h1 {
-  font-size: 80px;
-  color: #1f1d9f;
+  font-size: 75px;
+  color: #333baf;
   display: block;
   letter-spacing: 2px;
   font-weight:700;
-  font-family: alpaca-solidify;
+/*  font-family: alpaca-solidify;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -438,17 +448,10 @@ display: none;
 
 #fh5co-index .fh5co-heading h2 {
   font-size: 20px;
-  color: #f81126;
+  color: #134b7a;
   display: block;
-  font-weight:550;
+  font-weight:500;
   margin-bottom: 2px;
-  font-family: "Work Sans", Arial, sans-serif;
-/*  font-family: 'Pacifico', cursive;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-family: 'Oxygen', sans-serif;*/
-/*  font-family: 'Cabin', sans-serif;*/
-/*  font-family: 'Varela Round', sans-serif;*/
-/*  font-family: 'Indie Flower', cursive;*/
 }
 @media screen and (max-width: 768px) {
   #fh5co-index, {
@@ -504,16 +507,9 @@ display: none;
 .simply-countdown > .simply-section .simply-amount,
 .simply-countdown > .simply-section .simply-word {
   display: block;
-  color: #fdec27;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-/*  font-family: 'Pacifico', cursive;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-family: 'Oxygen', sans-serif;*/
-/*  font-family: 'Cabin', sans-serif;*/
-/*  font-family: 'Varela Round', sans-serif;*/
-/*  font-family: 'Indie Flower', cursive;*/
+  color: #ff5f54;
+ /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
   font-weight:550;
-  font-family: "Work Sans", Arial, sans-serif;
   /* amounts and words */
 }
 
@@ -525,8 +521,8 @@ display: none;
 .simply-countdown > .simply-section .simply-word {
 /*  text-transform: capitalize;*/
   font-size: 15px;
-  color: #fdec27;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  color: #ff5f54;
+ /* text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;*/
 /*  margin-top: 10px;*/
   /* words */
 }
@@ -575,41 +571,29 @@ display: none;
 
 #fh5co-details .event-wrap h3 {
   font-size: 20px;
-  color: #1f1d9f;
+  color: #333baf;
   border-bottom: 2px solid rgba(47, 52, 142, 0.5);
   display: block;
   padding-bottom: 20px;
   font-weight:700;
   text-transform: uppercase;
-/*  font-family: alpaca-scarlett;*/
-  font-family: "Work Sans", Arial, sans-serif;
-/*    font-family: 'Pacifico', cursive;*/
-/*  font-family: 'Roboto', sans-serif;*/
-/*  font-family: 'Oxygen', sans-serif;*/
-/*  font-family: 'Cabin', sans-serif;*/
-/*  font-family: 'Varela Round', sans-serif;*/
-/*  font-family: 'Indie Flower', cursive;*/
 }
 
 #fh5co-details .event-wrap h4 {
   font-size: 20px;
-  color: #00863d;
+  color: #0e5b00;
   text-transform: bold;
-  text-decoration: underline;
   font-weight:700;
-  font-family: alpaca-solidify;
 /*  text-transform: uppercase;*/
 }
 
 #fh5co-details .event-wrap span {
   font-size: 15px;
   text-transform: bold;
-  color: #1d769f;
+  color: #333baf;
   display: block;
   margin-bottom: 12px;
   font-weight:700;
-  font-family: "Work Sans", Arial, sans-serif;
-/*  font-family: 'Varela Round', sans-serif;*/
   text-transform: uppercase;
 }
 
@@ -618,17 +602,19 @@ display: none;
   color: #4d4e51;
   text-align: center;
   text-justify: inter-word;
-  font-weight:550;
-  font-family: "Work Sans", Arial, sans-serif;
+/*  font-weight:550;*/
 }
 
 #fh5co-details .event-wrap a {
   font-size: 13px;
   text-transform: bold;
-  color: #1d769f;
+  color: #333baf;
   display: block;
   margin-bottom: 10px;
-  font-family: "Work Sans", Arial, sans-serif;
+}
+
+#fh5co-details .event-wrap a:hover {
+  color: #fdeb26;
 }
 
 #fh5co-details .event-wrap i {
@@ -646,7 +632,6 @@ display: none;
 
 #fh5co-accomodation.fh5co-heading h2 {
   color: black;
-  font-family: alpaca-scarlett;
 }
 
 @media screen and (max-width: 1000px) {
@@ -658,25 +643,24 @@ display: none;
 
 #fh5co-accomodation h3 {
   font-size: 25px;
-  color: #1f1d9f;
+  color: #333baf;
   display: block;
   font-weight:700;
   margin-bottom: 20px;
   margin-top: 20px;
-  font-family: alpaca-scarlett;
-  border-top: 2px solid rgba(47, 52, 142, 0.5);
-  border-bottom: 2px solid rgba(47, 52, 142, 0.5);
+  border-top: 2px solid #333baf;
+  border-bottom: 2px solid #333baf;
 }
 
 #fh5co-accomodation h4 {
   font-size: 20px;
-  color: #1d769f;
+  color: #0e5b00;
 /*  text-decoration: underline;*/
   text-transform: bold;
   margin-top: 20px;
   text-align: left;
   font-weight:700;
-  border-bottom: 2px dotted rgba(29, 18, 159, 1);
+  border-bottom: 2px dotted #0e5b00;
 }
 
 #fh5co-accomodation p {
@@ -685,8 +669,7 @@ display: none;
   text-justify: inter-word;
   margin-block-end: 0;
   text-align: justify;
-  font-weight:550;
-  font-family: "Work Sans", Arial, sans-serif;
+/*  font-weight:550;*/
 }
 
 #fh5co-accomodation a, li {
@@ -695,8 +678,15 @@ display: none;
   text-justify: inter-word;
   margin-block-end: 0;
   text-align: justify;
-  font-weight:550;
-  font-family: "Work Sans", Arial, sans-serif;
+/*  font-weight:550;*/
+}
+
+#fh5co-accomodation #lodge {
+  color: #333baf;
+}
+
+#fh5co-accomodation a:hover {
+  color: #fdeb26;
 }
 
 #fh5co-accomodation .js .animate-box {
@@ -708,12 +698,10 @@ display: none;
 
 /*#fh5co-infos .fh5co-heading h2 {
   color: #dc4224;
-  font-family: alpaca-scarlett;
 }*/
 
 #fh5co-infos.fh5co-heading h2 {
   color: black;
-  font-size: 'alpaca-solidify';
 }
 @media screen and (max-width: 768px) {
   #fh5co-infos, {
@@ -729,24 +717,24 @@ display: none;
 
 #fh5co-infos h3 {
   font-size: 25px;
-  color: #1f1d9f;
+  color: #333baf;
   display: block;
   font-weight:700;
   margin-bottom: 20px;
   margin-top: 30px;
-  border-top: 2px solid rgba(47, 52, 142, 0.5);
-  border-bottom: 2px solid rgba(47, 52, 142, 0.5);
+  border-top: 2px solid #333baf;
+  border-bottom: 2px solid #333baf;
 }
 
 #fh5co-infos h4 {
   font-size: 20px;
-  color: #1d769f;
+  color: #0e5b00;
 /*  text-decoration: underline;*/
   text-transform: bold;
   margin-top: 20px;
   text-align: left;
   font-weight:700;
-  border-bottom: 2px dotted rgba(29, 18, 159, 1);
+  border-bottom: 2px dotted #0e5b00;
 }
 
 #fh5co-infos h5 {
@@ -764,8 +752,7 @@ display: none;
   text-justify: inter-word;
   margin-block-end: 0;
   text-align: justify;
-  font-weight:550;
-  font-family: "Work Sans", Arial, sans-serif;
+/*  font-weight:550;*/
 }
 
 #fh5co-infos a, li {
@@ -776,6 +763,11 @@ display: none;
   text-align: justify;
 }
 
+#fh5co-infos a:hover {
+  color: #fdeb26;
+}
+
+
 #fh5co-infos .animate-box_2 p {
   font-style: bold;
   margin-top: 20px;
@@ -783,7 +775,6 @@ display: none;
   color: #125a07;
   text-align: center;
   font-weight:550;
-  font-family: "Work Sans", Arial, sans-serif;
 }
 
 #fh5co-infos .js .animate-box {
@@ -798,11 +789,10 @@ display: none;
   float: left;
 }
 
-#fh5co-rsvp .fh5co-heading h2 {
+/*#fh5co-rsvp .fh5co-heading h2 {
   color: #1d769f;
   margin-bottom: 40px;
-  font-family: alpaca-scarlett;
-}
+}*/
 
 @media screen and (max-width: 768px) {
   #fh5co-rsvp, {
@@ -817,7 +807,7 @@ display: none;
 
 #fh5co-rsvp p {
   font-size: 20px;
-  color: #f81126;
+  color: #0e5b00;
   margin-block-end: 0;
   text-align: center;
   font-weight:700;
@@ -853,21 +843,22 @@ display: none;
   transition: 0.5s;
 }
 #fh5co-rsvp .form-control::-webkit-input-placeholder {
-  color: #4d4e51;
+  color: #333baf;
   font-style: italic;
+  font-weight: 500px;
 }
 #fh5co-rsvp .form-control:-moz-placeholder {
   /* Firefox 18- */
-  color: #4d4e51;
+  color: #333baf;
   font-style: italic;
 }
 #fh5co-rsvp .form-control::-moz-placeholder {
   /* Firefox 19+ */
-  color: #4d4e51;
+  color: #333baf;
   font-style: italic;
 }
 #fh5co-rsvp .form-control:-ms-input-placeholder {
-  color: #4d4e51;
+  color: #333baf;
   font-style: italic;
 }
 #fh5co-rsvp .form-control:focus {
@@ -883,7 +874,6 @@ display: none;
   font-weight: 400;
   padding-left: 50px;
   padding-right: 50px;
-  font-family: alpaca-solidify;
 }
 #fh5co-rsvp .form-inline .form-group {
   width: 100% !important;
@@ -948,7 +938,6 @@ display: none;
   font-size: 70px;
   line-height: 1;
   font-weight: bold;
-  font-family: arbora, sans-serif;
   color: #1f1d9f;
 }
 
@@ -996,7 +985,7 @@ display: none;
 }
 #fh5co-header .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
-  background: #fff !important;
+  background: #fdeb26 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -1031,20 +1020,7 @@ display: none;
   margin-bottom: 40px;
   line-height: 1.5;
   font-weight: bold;
-  color: #1d769f;
-  text-transform: uppercase;
-/*  font-family:'Avenir LT W01 35 Light';*/
-/*  font-family:'AvenirLTW01-35LightObli';*/
-/*  font-family:'Avenir LT W01 45 Book';*/
- /* font-family:'AvenirLTW01-45BookObliq';*/
-/*  font-family:'Avenir LT W01 55 Roman';*/
-/*  font-family:'AvenirLTW01-55Oblique';*/
-/*  font-family:'Avenir LT W01 65 Medium';*/
-/*  font-family:'AvenirLTW01-65MediumObl';*/
-/*  font-family:'Avenir LT W01 85 Heavy';*/
-/*  font-family:'AvenirLTW01-85HeavyObli';*/
-  font-family:'Avenir LT W01 95 Black';
-/*  font-family:'AvenirLTW01-95BlackObli';*/
+  color: #eb334c;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h2 {
@@ -1058,7 +1034,6 @@ display: none;
   line-height: 1.5;
   font-weight: bold;
   color: #4d4e51;
-  font-family: arbora, sans-serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h3 {
@@ -1073,7 +1048,6 @@ display: none;
   font-style: italic;
   text-decoration: underline;
   color: #4d4e51;
-  font-family: arbora, sans-serif;
 }
 @media screen and (max-width: 768px) {
   .fh5co-heading h4 {
@@ -1346,7 +1320,6 @@ display: none;
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Work Sans", Arial, sans-serif;
   font-size: 16px;
   font-weight: 400;
   -webkit-border-radius: 30px;
