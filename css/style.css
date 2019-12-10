@@ -431,7 +431,6 @@ display: none;
   display: block;
   letter-spacing: 2px;
   font-weight:700;
-/*  font-family: alpaca-solidify;*/
 }
 
 @media screen and (max-width: 768px) {
@@ -445,6 +444,13 @@ display: none;
     height: inherit;
   }
 }
+
+@media screen and (max-width: 768px) {
+  #fh5co-index .fh5co-heading h1 {
+    font-size: 50px;
+  }
+}
+
 
 #fh5co-index .fh5co-heading h2 {
   font-size: 20px;
@@ -952,13 +958,13 @@ display: none;
 @media screen and (max-width: 768px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 40px;
+    font-size: 30px;
   }
 }
 @media screen and (max-width: 480px) {
   #fh5co-header .display-tc h1,
   .fh5co-cover .display-tc h1 {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 #fh5co-header .display-tc h2,
