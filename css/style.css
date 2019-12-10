@@ -451,7 +451,6 @@ display: none;
   }
 }
 
-
 #fh5co-index .fh5co-heading h2 {
   font-size: 20px;
   color: #134b7a;
@@ -896,7 +895,11 @@ display: none;
 /*MAP*/
 
 #map {
-  position: relative;
+  position:relative;
+}
+
+#map, iframe{
+  width:100%;
 }
 
 /*MAP*/
