@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6, figure {
 /*  background-color: rgba(132, 188, 251, 0.3);*/
 /*  background-color: rgba(225, 215, 224, .1);*/
 /*  background-color: rgba(131, 253, 254, .1);*/
-  background-image: url(../images/bg_4000x4000.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.025)), url(../images/bg_4000x4000.jpg);
 }
 
 @media screen and (max-width: 700px) {
@@ -822,8 +822,8 @@ display: none;
 }
 
 #fh5co-rsvp label {
-  font-size: 20px;
-  color: #1d769f;
+  font-size: 15px;
+  color: #0e5b00;
   font-weight:700;
   float: left;
 
